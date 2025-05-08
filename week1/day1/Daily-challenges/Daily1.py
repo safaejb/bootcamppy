@@ -11,7 +11,11 @@
 #print(f"number: {number} - length {length} ➞ {array} ")
 
 #Challenge2
-user_word = input("Enter your word")
 
-user_word= str("user_word")
-while user_word 
+word = input("Enter your word : ")
+new_word=""
+for i in range(len(word)) :
+  if i == 0 or word[i] != word[i - 1] :
+    new_word += word[i]
+print("new word without duplicate consecutive letters:", new_word)
+
