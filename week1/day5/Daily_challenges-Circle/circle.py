@@ -38,3 +38,4 @@ circle_list = [c2, c1, c3]
 circle_list.sort()
 for c in circle_list:
     print(c)
+
